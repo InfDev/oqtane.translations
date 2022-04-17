@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Access.ApiFramework" xml:space="preserve">
+    <value>Доступ к Swagger API</value>
+  </data>
+  <data name="CLRVersion.HelpText" xml:space="preserve">
+    <value>Версия общеязыковой среды выполнения</value>
+  </data>
+  <data name="CLRVersion.Text" xml:space="preserve">
+    <value>Версия CLR: </value>
+  </data>
+  <data name="Critical" xml:space="preserve">
+    <value>Критический</value>
+  </data>
+  <data name="Debug" xml:space="preserve">
+    <value>Отладка</value>
+  </data>
+  <data name="DetailedErrors.HelpText" xml:space="preserve">
+    <value>Укажите, включены ли подробные ошибки для Blazor. Эту опцию нельзя использовать в производственной среде.</value>
+  </data>
+  <data name="DetailedErrors.Text" xml:space="preserve">
+    <value>Ошибки детально? </value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="Error.UpdateConfig" xml:space="preserve">
+    <value>Произошла ошибка при обновлении конфигурации</value>
+  </data>
+  <data name="False" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="FrameworkVersion.HelpText" xml:space="preserve">
+    <value>Версия фреймворка</value>
+  </data>
+  <data name="FrameworkVersion.Text" xml:space="preserve">
+    <value>Версия фреймворка: </value>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>Информация</value>
+  </data>
+  <data name="InstallationId.HelpText" xml:space="preserve">
+    <value>Уникальный идентификатор вашей установки</value>
+  </data>
+  <data name="InstallationId.Text" xml:space="preserve">
+    <value>Идентификатор установки: </value>
+  </data>
+  <data name="LoggingLevel.HelpText" xml:space="preserve">
+    <value>Минимальный уровень ведения журнала событий. Этот параметр можно использовать для управления объемом элементов, хранящихся в журнале событий.</value>
+  </data>
+  <data name="LoggingLevel.Text" xml:space="preserve">
+    <value>Уровень ведения журнала: </value>
+  </data>
+  <data name="OSVersion.HelpText" xml:space="preserve">
+    <value>Версия операционной системы</value>
+  </data>
+  <data name="OSVersion.Text" xml:space="preserve">
+    <value>Версия ОС: </value>
+  </data>
+  <data name="PackageService.HelpText" xml:space="preserve">
+    <value>Укажите, включена ли служба пакетов для установки модулей, тем и переводов</value>
+  </data>
+  <data name="PackageService.Text" xml:space="preserve">
+    <value>Пакетная служба включена?</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>Пожалуйста, зарегистрируйте меня для получения основных обновлений продуктов и бюллетеней по безопасности</value>
+  </data>
+  <data name="RestartApplication.Header" xml:space="preserve">
+    <value>Перезапуск приложения</value>
+  </data>
+  <data name="RestartApplication.Message" xml:space="preserve">
+    <value>Вы уверены, что хотите перезапустить приложение?</value>
+  </data>
+  <data name="ServerTime.HelpText" xml:space="preserve">
+    <value>Время на сервере</value>
+  </data>
+  <data name="ServerTime.Text" xml:space="preserve">
+    <value>Время на сервере: </value>
+  </data>
+  <data name="Success.Register" xml:space="preserve">
+    <value>Вы успешно зарегистрировались для получения обновлений</value>
+  </data>
+  <data name="Success.UpdateConfig.Restart" xml:space="preserve">
+    <value>Конфигурация обновлена. Пожалуйста, выберите "Перезапуск приложение", чтобы эти изменения были активированы.</value>
+  </data>
+  <data name="Swagger.HelpText" xml:space="preserve">
+    <value>Укажите, включен ли Swagger для вашего серверного API</value>
+  </data>
+  <data name="Swagger.Text" xml:space="preserve">
+    <value>Swagger включен?</value>
+  </data>
+  <data name="Trace" xml:space="preserve">
+    <value>Трассировка</value>
+  </data>
+  <data name="True" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Внимание</value>
+  </data>
+  <data name="ContentRootPath.HelpText" xml:space="preserve">
+    <value>Корневой путь сервера</value>
+  </data>
+  <data name="ContentRootPath.Text" xml:space="preserve">
+    <value>Корневой путь: </value>
+  </data>
+  <data name="Info.Heading" xml:space="preserve">
+    <value>Информация</value>
+  </data>
+  <data name="IPAddress.HelpText" xml:space="preserve">
+    <value>IP-адрес сервера</value>
+  </data>
+  <data name="IPAddress.Text" xml:space="preserve">
+    <value>IP-адрес:</value>
+  </data>
+  <data name="MachineName.HelpText" xml:space="preserve">
+    <value>Имя серверной машины</value>
+  </data>
+  <data name="MachineName.Text" xml:space="preserve">
+    <value>Имя машины:</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>Ничто</value>
+  </data>
+  <data name="NotificationLevel.HelpText" xml:space="preserve">
+    <value>Минимальный уровень ведения журнала, для которого уведомления должны отправляться пользователям хоста.</value>
+  </data>
+  <data name="NotificationLevel.Text" xml:space="preserve">
+    <value>Уровень уведомления:</value>
+  </data>
+  <data name="Options.Heading" xml:space="preserve">
+    <value>Опции</value>
+  </data>
+  <data name="RestartApplication.Text" xml:space="preserve">
+    <value>Перезапустить приложение</value>
+  </data>
+  <data name="TickCount.HelpText" xml:space="preserve">
+    <value>Количество времени, в течение которого служба была доступна и работала</value>
+  </data>
+  <data name="TickCount.Text" xml:space="preserve">
+    <value>Время работы службы:</value>
+  </data>
+  <data name="WebRootPath.HelpText" xml:space="preserve">
+    <value>Серверный корневой веб-путь</value>
+  </data>
+  <data name="WebRootPath.Text" xml:space="preserve">
+    <value>Веб-путь:</value>
+  </data>
+  <data name="WorkingSet.HelpText" xml:space="preserve">
+    <value>Выделено памяти службы (в МБ)</value>
+  </data>
+  <data name="WorkingSet.Text" xml:space="preserve">
+    <value>Выделено памяти:</value>
+  </data>
+</root>

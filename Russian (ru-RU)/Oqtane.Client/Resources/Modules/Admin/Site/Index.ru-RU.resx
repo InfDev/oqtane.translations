@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Aliases.HelpText" xml:space="preserve">
+    <value>Псевдонимы для сайта. Псевдоним может быть доменным именем (www.site.com) или виртуальной папкой (например, www.site.com/folder). Если у сайта несколько псевдонимов, они должны быть разделены запятыми.</value>
+  </data>
+  <data name="Aliases.Text" xml:space="preserve">
+    <value>Псевдонимы: </value>
+  </data>
+  <data name="Confirm.DeleteSite" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить этот сайт?</value>
+  </data>
+  <data name="Container.Select" xml:space="preserve">
+    <value>Выбрать контейнер</value>
+  </data>
+  <data name="DefaultAdminContainer" xml:space="preserve">
+    <value>Контейнер администратора по умолчанию</value>
+  </data>
+  <data name="DefaultAdminContainer.HelpText" xml:space="preserve">
+    <value>Выберите контейнер администратора по умолчанию для сайта</value>
+  </data>
+  <data name="DefaultAdminContainer.Text" xml:space="preserve">
+    <value>Контейнер администратора по умолчанию: </value>
+  </data>
+  <data name="DefaultContainer.HelpText" xml:space="preserve">
+    <value>Выберите контейнер по умолчанию для сайта</value>
+  </data>
+  <data name="DefaultContainer.Text" xml:space="preserve">
+    <value>Контейнер по умолчанию: </value>
+  </data>
+  <data name="DefaultTheme.HelpText" xml:space="preserve">
+    <value>Выберите тему сайтов по умолчанию</value>
+  </data>
+  <data name="DefaultTheme.Text" xml:space="preserve">
+    <value>Тема по умолчанию: </value>
+  </data>
+  <data name="EnablePWA.HelpText" xml:space="preserve">
+    <value>Выберите, хотите ли вы, чтобы этот сайт был доступен как прогрессивное веб-приложение (PWA)</value>
+  </data>
+  <data name="EnablePWA.Text" xml:space="preserve">
+    <value>Включено? </value>
+  </data>
+  <data name="Error.DeleteSite" xml:space="preserve">
+    <value>Ошибка при удалении сайта</value>
+  </data>
+  <data name="Error.SaveSite" xml:space="preserve">
+    <value>Ошибка при сохранении сайта</value>
+  </data>
+  <data name="Error.Smtp.TestConfig" xml:space="preserve">
+    <value>Ошибка при тестировании конфигурации SMTP</value>
+  </data>
+  <data name="Error.Theme.LoadPane" xml:space="preserve">
+    <value>Ошибка при загрузке макетов панели для темы</value>
+  </data>
+  <data name="FavoriteIcon.HelpText" xml:space="preserve">
+    <value>Укажите Favicon</value>
+  </data>
+  <data name="FavoriteIcon.Text" xml:space="preserve">
+    <value>Favicon: </value>
+  </data>
+  <data name="Host.HelpText" xml:space="preserve">
+    <value>Введите имя хоста SMTP-сервера</value>
+  </data>
+  <data name="Host.Text" xml:space="preserve">
+    <value>Хост: </value>
+  </data>
+  <data name="Info.Smtp.SaveSettings" xml:space="preserve">
+    <value>Настройки SMTP сохранены, и сообщение было отправлено на адрес электронной почты, связанный с вашей учетной записью ... Подождите несколько минут для доставки. Если вы не получили электронное письмо, просмотрите задание уведомления в запланированных заданиях на предмет каких-либо подробностей журнала.</value>
+  </data>
+  <data name="IsDeleted.HelpText" xml:space="preserve">
+    <value>Этот сайт удален?</value>
+  </data>
+  <data name="IsDeleted.Text" xml:space="preserve">
+    <value>Удален? </value>
+  </data>
+  <data name="Logo.HelpText" xml:space="preserve">
+    <value>Укажите логотип для сайта</value>
+  </data>
+  <data name="Logo.Text" xml:space="preserve">
+    <value>Логотип: </value>
+  </data>
+  <data name="Message.Aliases.Taken" xml:space="preserve">
+    <value>Псевдоним уже используется для другого сайта</value>
+  </data>
+  <data name="Message.FailAuth.DeleteSite" xml:space="preserve">
+    <value>Вы не уполномочены удалять сайт</value>
+  </data>
+  <data name="Message.Required.SiteName" xml:space="preserve">
+    <value>Вы должны указать имя сайта, псевдоним и тему/контейнер по умолчанию</value>
+  </data>
+  <data name="Message.Required.Smtp" xml:space="preserve">
+    <value>Вы должны указать SMTP-хост, порт и отправителя</value>
+  </data>
+  <data name="Name.HelpText" xml:space="preserve">
+    <value>Введите название сайта</value>
+  </data>
+  <data name="Name.Text" xml:space="preserve">
+    <value>Имя: </value>
+  </data>
+  <data name="Port.HelpText" xml:space="preserve">
+    <value>Введите номер порта для SMTP-сервера. Обратите внимание, что это поле является обязательным, если вы указываете имя хоста.</value>
+  </data>
+  <data name="Port.Text" xml:space="preserve">
+    <value>Порт: </value>
+  </data>
+  <data name="PwaApplicationIcon.HelpText" xml:space="preserve">
+    <value>Включите значок приложения для вашего PWA. Это должен быть PNG размером 192 X 192 пикселей.</value>
+  </data>
+  <data name="PwaApplicationIcon.Text" xml:space="preserve">
+    <value>Значок приложения: </value>
+  </data>
+  <data name="PwaSplashIcon.HelpText" xml:space="preserve">
+    <value>Включите значок заставки для вашего PWA. Это должен быть PNG размером 512 X 512 пикселей.</value>
+  </data>
+  <data name="PwaSplashIcon.Text" xml:space="preserve">
+    <value>Значок заставки: </value>
+  </data>
+  <data name="SmptSender.HelpText" xml:space="preserve">
+    <value>Введите адрес электронной почты, с которого будут отправляться сообщения. Обратите внимание, что для этого адреса электронной почты может потребоваться авторизация на SMTP-сервере.</value>
+  </data>
+  <data name="SmptSender.Text" xml:space="preserve">
+    <value>Отправитель эл. почты: </value>
+  </data>
+  <data name="SmptUsername.HelpText" xml:space="preserve">
+    <value>Введите имя пользователя для своей учетной записи SMTP</value>
+  </data>
+  <data name="SmptUsername.Text" xml:space="preserve">
+    <value>Имя пользователя: </value>
+  </data>
+  <data name="Smtp.Required.EnableNotificationJob" xml:space="preserve">
+    <value>** Обратите внимание, что SMTP требует, чтобы задание уведомлений было включено в запланированных заданиях</value>
+  </data>
+  <data name="Smtp.TestConfig" xml:space="preserve">
+    <value>Тест конфигурации SMTP</value>
+  </data>
+  <data name="SmtpPassword.HelpText" xml:space="preserve">
+    <value>Введите пароль для своей учетной записи SMTP</value>
+  </data>
+  <data name="SmtpPassword.Text" xml:space="preserve">
+    <value>Пароль: </value>
+  </data>
+  <data name="Success.Settings.SaveSite" xml:space="preserve">
+    <value>Настройки сайта сохранены</value>
+  </data>
+  <data name="Tenant.HelpText" xml:space="preserve">
+    <value>Введите арендатора сайта</value>
+  </data>
+  <data name="Tenant.Text" xml:space="preserve">
+    <value>Арендатор: </value>
+  </data>
+  <data name="Theme.Select" xml:space="preserve">
+    <value>Выберите тему</value>
+  </data>
+  <data name="UseSsl.HelpText" xml:space="preserve">
+    <value>Укажите, требуется ли SSL для вашего SMTP-сервера</value>
+  </data>
+  <data name="UseSsl.Text" xml:space="preserve">
+    <value>SSL включен: </value>
+  </data>
+  <data name="Aliases.Heading" xml:space="preserve">
+    <value>Псевдонимы</value>
+  </data>
+  <data name="Browse" xml:space="preserve">
+    <value>Просмотр</value>
+  </data>
+  <data name="ConnectionString.HelpText" xml:space="preserve">
+    <value>Информация о подключении к базе данных</value>
+  </data>
+  <data name="ConnectionString.Text" xml:space="preserve">
+    <value>Подключение:</value>
+  </data>
+  <data name="Database.HelpText" xml:space="preserve">
+    <value>База данных для арендатора</value>
+  </data>
+  <data name="Database.Text" xml:space="preserve">
+    <value>База данных:</value>
+  </data>
+  <data name="DefaultAlias.HelpText" xml:space="preserve">
+    <value>Псевдоним по умолчанию для сайта. Запросы псевдонимов не по умолчанию будут перенаправлены на псевдоним по умолчанию.</value>
+  </data>
+  <data name="DefaultAlias.Text" xml:space="preserve">
+    <value>Псевдоним по умолчанию: </value>
+  </data>
+  <data name="DeleteSite.Text" xml:space="preserve">
+    <value>Удалить сайт</value>
+  </data>
+  <data name="Hide" xml:space="preserve">
+    <value>Скрыть</value>
+  </data>
+  <data name="Hosting.Heading" xml:space="preserve">
+    <value>Модель хостинга</value>
+  </data>
+  <data name="Prerender.HelpText" xml:space="preserve">
+    <value>Указывает, должен ли сайт быть предварительно обработан (для поисковых роботов и т. д.)</value>
+  </data>
+  <data name="Prerender.Text" xml:space="preserve">
+    <value>Пререндерить? </value>
+  </data>
+  <data name="PWASettings.Heading" xml:space="preserve">
+    <value>Настройки PWA</value>
+  </data>
+  <data name="Runtime.HelpText" xml:space="preserve">
+    <value>Модель размещения Blazor во время выполнения</value>
+  </data>
+  <data name="Runtime.Text" xml:space="preserve">
+    <value>Среда выполнения: </value>
+  </data>
+  <data name="Show" xml:space="preserve">
+    <value>Показать</value>
+  </data>
+  <data name="SMTPSettings.Heading" xml:space="preserve">
+    <value>Настройки SMTP</value>
+  </data>
+</root>
