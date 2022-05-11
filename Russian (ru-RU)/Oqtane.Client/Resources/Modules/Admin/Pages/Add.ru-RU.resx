@@ -234,4 +234,7 @@
   <data name="Meta.HelpText" xml:space="preserve">
     <value>При желании введите метатеги (именно в том виде, в каком вы хотите, чтобы они были включены в вывод страницы).</value>
   </data>
+  <data name="Meta.Text" xml:space="preserve">
+    <value>Meta:</value>
+  </data>
 </root>

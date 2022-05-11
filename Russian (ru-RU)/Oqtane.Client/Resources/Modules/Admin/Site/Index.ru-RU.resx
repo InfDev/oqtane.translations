@@ -300,9 +300,6 @@
   <data name="DeleteSite.Text" xml:space="preserve">
     <value>Удалить сайт</value>
   </data>
-  <data name="Hide" xml:space="preserve">
-    <value>Скрыть</value>
-  </data>
   <data name="Hosting.Heading" xml:space="preserve">
     <value>Модель хостинга</value>
   </data>
@@ -321,10 +318,10 @@
   <data name="Runtime.Text" xml:space="preserve">
     <value>Среда выполнения: </value>
   </data>
-  <data name="Show" xml:space="preserve">
-    <value>Показать</value>
-  </data>
   <data name="SMTPSettings.Heading" xml:space="preserve">
     <value>Настройки SMTP</value>
+  </data>
+  <data name="TenantInformation.Heading" xml:space="preserve">
+    <value>Информация об арендаторе</value>
   </data>
 </root>

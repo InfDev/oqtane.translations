@@ -183,4 +183,7 @@
   <data name="Profile.Heading" xml:space="preserve">
     <value>Профиль</value>
   </data>
+  <data name="Password.Placeholder" xml:space="preserve">
+    <value>Пароль</value>
+  </data>
 </root>

@@ -126,14 +126,11 @@
   <data name="Info.SignedIn" xml:space="preserve">
     <value>Вы уже вошли в систему</value>
   </data>
-  <data name="Message.Account.NotVerfied" xml:space="preserve">
-    <value>Учетная запись пользователя не может быть проверена. Пожалуйста, свяжитесь с вашим администратором для получения дальнейших инструкций.</value>
-  </data>
   <data name="Message.Required.UserInfo" xml:space="preserve">
     <value>Пожалуйста, укажите ваше имя пользователя и пароль</value>
   </data>
   <data name="Success.Account.Verified" xml:space="preserve">
-    <value>Учетная запись пользователя успешно подтверждена. Теперь вы можете войти в систему, указав свое имя пользователя и пароль ниже.</value>
+    <value>Учетная запись пользователя успешно проверена. Теперь вы можете войти под своим именем пользователя и паролем ниже.</value>
   </data>
   <data name="Code.HelpText" xml:space="preserve">
     <value>Пожалуйста, введите безопасный проверочный код, который был отправлен вам по электронной почте.</value>
@@ -155,9 +152,6 @@
   </data>
   <data name="Error.TwoFactor.Fail" xml:space="preserve">
     <value>Проверка не удалась. Пожалуйста, убедитесь, что вы ввели код именно в той форме, которая указана в вашем письме. Если вы хотите запросить новый код подтверждения, выберите вариант «Отмена» и снова войдите в систему.</value>
-  </data>
-  <data name="HidePassword" xml:space="preserve">
-    <value>Скрыть</value>
   </data>
   <data name="Message.ForgotPassword" xml:space="preserve">
     <value>Пожалуйста, введите имя пользователя, связанное с вашей учетной записью, а затем снова выберите опцию «Забыли пароль»</value>
@@ -186,9 +180,6 @@
   <data name="Remember.Text" xml:space="preserve">
     <value>Запомнить меня?</value>
   </data>
-  <data name="ShowPassword" xml:space="preserve">
-    <value>Показать</value>
-  </data>
   <data name="Use" xml:space="preserve">
     <value>Использовать</value>
   </data>
@@ -200,5 +191,38 @@
   </data>
   <data name="Username.HelpText" xml:space="preserve">
     <value>Пожалуйста, введите имя пользователя, связанное с вашей учетной записью</value>
+  </data>
+  <data name="ExternalLoginStatus.AccessDenied" xml:space="preserve">
+    <value>Вашему внешнему логину было отказано в доступе. Пожалуйста, свяжитесь с вашим администратором для получения дальнейших инструкций.</value>
+  </data>
+  <data name="ExternalLoginStatus.DuplicateEmail" xml:space="preserve">
+    <value>Несколько учетных записей пользователей уже существуют с адресом электронной почты вашего внешнего входа. Пожалуйста, свяжитесь с вашим администратором для получения дальнейших инструкций.</value>
+  </data>
+  <data name="ExternalLoginStatus.InvalidEmail" xml:space="preserve">
+    <value>Поставщик внешнего входа не предоставил действительный адрес электронной почты для вашей учетной записи. Пожалуйста, свяжитесь с вашим администратором для получения дальнейших инструкций.</value>
+  </data>
+  <data name="ExternalLoginStatus.ProviderKeyMismatch" xml:space="preserve">
+    <value>Произошла ошибка при проверке вашего внешнего входа. Пожалуйста, свяжитесь с вашим администратором для получения дальнейших инструкций.</value>
+  </data>
+  <data name="ExternalLoginStatus.RemoteFailure" xml:space="preserve">
+    <value>Ошибка внешнего входа. Пожалуйста, свяжитесь с вашим администратором для получения дальнейших инструкций.</value>
+  </data>
+  <data name="ExternalLoginStatus.UserDoesNotExist" xml:space="preserve">
+    <value>Учетная запись пользователя, совпадающая с адресом электронной почты вашего внешнего входа, не существует. Пожалуйста, свяжитесь с вашим администратором для получения дальнейших инструкций.</value>
+  </data>
+  <data name="ExternalLoginStatus.UserNotCreated" xml:space="preserve">
+    <value>Не удалось создать учетную запись пользователя для внешнего входа. Пожалуйста, свяжитесь с вашим администратором для получения дальнейших инструкций.</value>
+  </data>
+  <data name="ExternalLoginStatus.VerificationRequired" xml:space="preserve">
+    <value>Чтобы связать ваш внешний логин с вашей учетной записью пользователя, вы должны подтвердить свою личность. Пожалуйста, проверьте свою электронную почту для получения дальнейших инструкций.</value>
+  </data>
+  <data name="Message.Account.NotLinked" xml:space="preserve">
+    <value>Внешний вход не может быть связан. Пожалуйста, свяжитесь с вашим администратором для получения дальнейших инструкций.</value>
+  </data>
+  <data name="Message.Account.NotVerified" xml:space="preserve">
+    <value>Учетная запись пользователя не может быть проверена. Пожалуйста, свяжитесь с вашим администратором для получения дальнейших инструкций.</value>
+  </data>
+  <data name="Success.Account.Linked" xml:space="preserve">
+    <value>Учетная запись пользователя успешно связана. Теперь вы можете войти в систему с помощью внешнего входа ниже.</value>
   </data>
 </root>

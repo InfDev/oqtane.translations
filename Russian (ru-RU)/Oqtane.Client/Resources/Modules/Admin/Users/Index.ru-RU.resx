@@ -168,12 +168,6 @@
   <data name="ClientSecret.Text" xml:space="preserve">
     <value>Секрет клиента:</value>
   </data>
-  <data name="CookieType.HelpText" xml:space="preserve">
-    <value>Файлы cookie обычно управляются для каждого домена. Однако вы также можете выбрать отдельные файлы cookie для каждого сайта (эта опция применима только к микросайтам).</value>
-  </data>
-  <data name="CookieType.Text" xml:space="preserve">
-    <value>Тип файла cookie для входа:</value>
-  </data>
   <data name="CreateToken" xml:space="preserve">
     <value>Создать токен</value>
   </data>
@@ -206,9 +200,6 @@
   </data>
   <data name="ExternalLoginSettings.Heading" xml:space="preserve">
     <value>Настройки внешнего входа</value>
-  </data>
-  <data name="Hide" xml:space="preserve">
-    <value>Скрыть</value>
   </data>
   <data name="Issuer.HelpText" xml:space="preserve">
     <value>При желании укажите эмитента токена</value>
@@ -318,9 +309,6 @@
   <data name="Settings.Heading" xml:space="preserve">
     <value>Настройки</value>
   </data>
-  <data name="Show" xml:space="preserve">
-    <value>Показать</value>
-  </data>
   <data name="Success.SaveSiteSettings" xml:space="preserve">
     <value>Настройки успешно сохранены</value>
   </data>
@@ -365,5 +353,35 @@
   </data>
   <data name="UserSettings.Heading" xml:space="preserve">
     <value>Настройки пользователя</value>
+  </data>
+  <data name="CookieName.HelpText" xml:space="preserve">
+    <value>Файлы cookie обычно управляются для каждого домена. Однако вы также можете выбрать отдельные файлы cookie для каждого сайта (эта опция применима только к микросайтам).</value>
+  </data>
+  <data name="CookieName.Text" xml:space="preserve">
+    <value>Имя файла cookie:</value>
+  </data>
+  <data name="LastIPAddress" xml:space="preserve">
+    <value>Последний IP-адрес</value>
+  </data>
+  <data name="LastLoginOn" xml:space="preserve">
+    <value>Последний вход</value>
+  </data>
+  <data name="CreatedOn" xml:space="preserve">
+    <value>Создано</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>Обязательно</value>
+  </data>
+  <data name="Optional" xml:space="preserve">
+    <value>Необязательно</value>
+  </data>
+  <data name="IdentifierClaimType.HelpText" xml:space="preserve">
+    <value>Имя уникального идентификатора пользователя, предоставленного поставщиком</value>
+  </data>
+  <data name="IdentifierClaimType.Text" xml:space="preserve">
+    <value>Утверждение идентификатора:</value>
+  </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>Отключено</value>
   </data>
 </root>

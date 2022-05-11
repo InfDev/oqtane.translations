@@ -210,4 +210,13 @@
   <data name="TwoFactor.Text" xml:space="preserve">
     <value>Двухфакторная?</value>
   </data>
+  <data name="DeleteAllNotifications.Header" xml:space="preserve">
+    <value>Очистка уведомлений</value>
+  </data>
+  <data name="DeleteAllNotifications.Message" xml:space="preserve">
+    <value>Вы уверены, что хотите навсегда удалить все уведомления?</value>
+  </data>
+  <data name="DeleteAllNotifications.Text" xml:space="preserve">
+    <value>Удалить ВСЕ уведомления</value>
+  </data>
 </root>

@@ -159,4 +159,7 @@
   <data name="Name.HelpText" xml:space="preserve">
     <value>Введите имя скачиваемого файла</value>
   </data>
+  <data name="Name.Text" xml:space="preserve">
+    <value>Имя:</value>
+  </data>
 </root>

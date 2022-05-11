@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Day" xml:space="preserve">
-    <value>День</value>
+    <value>Дней</value>
   </data>
   <data name="DeleteJob.Header" xml:space="preserve">
     <value>Удалить задание</value>
@@ -142,16 +142,16 @@
     <value>Частота</value>
   </data>
   <data name="Hour" xml:space="preserve">
-    <value>Час</value>
+    <value>Часов</value>
   </data>
   <data name="Idle" xml:space="preserve">
     <value>При простое</value>
   </data>
   <data name="Minute" xml:space="preserve">
-    <value>Минута</value>
+    <value>Минут</value>
   </data>
   <data name="Month" xml:space="preserve">
-    <value>Месяц</value>
+    <value>Месяцев</value>
   </data>
   <data name="NextExecution" xml:space="preserve">
     <value>Следующее выполнение</value>
@@ -188,5 +188,8 @@
   </data>
   <data name="Once" xml:space="preserve">
     <value>Выполнить один раз</value>
+  </data>
+  <data name="Week" xml:space="preserve">
+    <value>Недель</value>
   </data>
 </root>

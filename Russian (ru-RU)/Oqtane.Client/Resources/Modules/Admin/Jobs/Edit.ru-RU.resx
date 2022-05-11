@@ -139,16 +139,16 @@
     <value>Ошибка при обновлении задания</value>
   </data>
   <data name="Hour(s)" xml:space="preserve">
-    <value>Часы</value>
+    <value>Часов</value>
   </data>
   <data name="Message.Required.JobInfo" xml:space="preserve">
     <value>Вы должны указать название работы, тип, частоту и сохранение</value>
   </data>
   <data name="Minute(s)" xml:space="preserve">
-    <value>Минуты</value>
+    <value>Минут</value>
   </data>
   <data name="Month(s)" xml:space="preserve">
-    <value>Месяцы</value>
+    <value>Месяцев</value>
   </data>
   <data name="Name.HelpText" xml:space="preserve">
     <value>Введите имя задания</value>

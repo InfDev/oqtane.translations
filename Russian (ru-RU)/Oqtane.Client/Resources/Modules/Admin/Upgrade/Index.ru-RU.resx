@@ -138,4 +138,7 @@
   <data name="Download.Heading" xml:space="preserve">
     <value>Скачивание</value>
   </data>
+  <data name="Upload.Heading" xml:space="preserve">
+    <value>Загрузка</value>
+  </data>
 </root>

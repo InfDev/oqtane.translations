@@ -207,4 +207,7 @@
   <data name="Settings.Heading" xml:space="preserve">
     <value>Настройки</value>
   </data>
+  <data name="Success.SaveSiteSettings" xml:space="preserve">
+    <value>Настройки успешно сохранены</value>
+  </data>
 </root>

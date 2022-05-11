@@ -192,4 +192,7 @@
   <data name="Information.Text" xml:space="preserve">
     <value>Информация</value>
   </data>
+  <data name="Permissions.Heading" xml:space="preserve">
+    <value>Разрешения</value>
+  </data>
 </root>

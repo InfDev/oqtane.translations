@@ -168,4 +168,7 @@
   <data name="Username.Text" xml:space="preserve">
     <value>Имя пользователя:</value>
   </data>
+  <data name="Password.Placeholder" xml:space="preserve">
+    <value>Пароль</value>
+  </data>
 </root>
