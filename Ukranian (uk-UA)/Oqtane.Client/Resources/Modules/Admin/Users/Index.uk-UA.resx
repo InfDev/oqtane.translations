@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddUser.Text" xml:space="preserve">
+    <value>Добавить пользователя</value>
+  </data>
+  <data name="Confirm.User.Delete" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить {0}?</value>
+  </data>
+  <data name="DeleteUser.Header" xml:space="preserve">
+    <value>Удалить пользователя</value>
+  </data>
+  <data name="AllowRegistration.HelpText" xml:space="preserve">
+    <value>Вы хотите, чтобы анонимные посетители могли зарегистрировать учетную запись на сайте</value>
+  </data>
+  <data name="AllowRegistration.Text" xml:space="preserve">
+    <value>Разрешить регистрацию? </value>
+  </data>
+  <data name="AllowSiteLogin.HelpText" xml:space="preserve">
+    <value>Вы хотите разрешить пользователям входить в систему, используя имя пользователя и пароль, которые управляются локально на этом сайте? Обратите внимание, что вы должны отключить эту опцию только в том случае, если вы уже успешно настроили внешний провайдер входа в систему, иначе вы можете заблокировать себя на сайте.</value>
+  </data>
+  <data name="AllowSiteLogin.Text" xml:space="preserve">
+    <value>Разрешить вход?</value>
+  </data>
+  <data name="Audience.HelpText" xml:space="preserve">
+    <value>При желании укажите аудиторию для токена</value>
+  </data>
+  <data name="Audience.Text" xml:space="preserve">
+    <value>Аудитория:</value>
+  </data>
+  <data name="Authority.HelpText" xml:space="preserve">
+    <value>URL-адрес центра или URL-адрес издателя, связанный с поставщиком OpenID Connect</value>
+  </data>
+  <data name="Authority.Text" xml:space="preserve">
+    <value>Орган:</value>
+  </data>
+  <data name="AuthorizationUrl.HelpText" xml:space="preserve">
+    <value>Конечная точка для получения кода авторизации</value>
+  </data>
+  <data name="AuthorizationUrl.Text" xml:space="preserve">
+    <value>URL авторизации:</value>
+  </data>
+  <data name="ClientID.HelpText" xml:space="preserve">
+    <value>Идентификатор клиента от провайдера</value>
+  </data>
+  <data name="ClientID.Text" xml:space="preserve">
+    <value>ID клиента:</value>
+  </data>
+  <data name="ClientSecret.HelpText" xml:space="preserve">
+    <value>Секрет клиента от провайдера</value>
+  </data>
+  <data name="ClientSecret.Text" xml:space="preserve">
+    <value>Секрет клиента:</value>
+  </data>
+  <data name="CreateToken" xml:space="preserve">
+    <value>Создать токен</value>
+  </data>
+  <data name="CreateUsers.HelpText" xml:space="preserve">
+    <value>Вы хотите, чтобы новые пользователи создавались автоматически? Если вы отключите эту опцию, пользователи должны быть уже зарегистрированы на сайте, чтобы войти с помощью внешнего логина.</value>
+  </data>
+  <data name="CreateUsers.Text" xml:space="preserve">
+    <value>Создавать новых пользователей?</value>
+  </data>
+  <data name="DeleteUser.Text" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="DomainFilter.HelpText" xml:space="preserve">
+    <value>Укажите любые критерии фильтрации домена электронной почты (разделенные запятыми). Исключаемые домены должны начинаться с восклицательного знака (!). Например, «microsoft.com,!hotmail.com» будет включать адреса электронной почты microsoft.com, но не адреса электронной почты hotmail.com.</value>
+  </data>
+  <data name="DomainFilter.Text" xml:space="preserve">
+    <value>Фильтр домена:</value>
+  </data>
+  <data name="EditUser.Text" xml:space="preserve">
+    <value>Редактировать</value>
+  </data>
+  <data name="EmailClaimType.HelpText" xml:space="preserve">
+    <value>Имя типа для утверждения адреса электронной почты, предоставленное поставщиком</value>
+  </data>
+  <data name="EmailClaimType.Text" xml:space="preserve">
+    <value>Тип утверждения для электронной почты:</value>
+  </data>
+  <data name="Error.SaveSiteSettings" xml:space="preserve">
+    <value>Ошибка сохранения настроек</value>
+  </data>
+  <data name="ExternalLoginSettings.Heading" xml:space="preserve">
+    <value>Настройки внешнего входа</value>
+  </data>
+  <data name="Issuer.HelpText" xml:space="preserve">
+    <value>При желании укажите эмитента токена</value>
+  </data>
+  <data name="Issuer.Text" xml:space="preserve">
+    <value>Эмитент:</value>
+  </data>
+  <data name="Lifetime.HelpText" xml:space="preserve">
+    <value>Количество минут, в течение которых токен должен быть действителен</value>
+  </data>
+  <data name="Lifetime.Text" xml:space="preserve">
+    <value>Продолжительность жизни:</value>
+  </data>
+  <data name="LockoutDuration.HelpText" xml:space="preserve">
+    <value>Количество минут, в течение которых пользователь должен быть заблокирован</value>
+  </data>
+  <data name="LockoutDuration.Text" xml:space="preserve">
+    <value>Продолжительность блокировки:</value>
+  </data>
+  <data name="LockoutSettings.Heading" xml:space="preserve">
+    <value>Настройки блокировки</value>
+  </data>
+  <data name="MaximumFailures.HelpText" xml:space="preserve">
+    <value>Максимальное количество попыток входа, прежде чем пользователь будет заблокирован</value>
+  </data>
+  <data name="MaximumFailures.Text" xml:space="preserve">
+    <value>Максимум отказов:</value>
+  </data>
+  <data name="MetadataUrl.HelpText" xml:space="preserve">
+    <value>Конечная точка обнаружения для получения метаданных для этого поставщика. Укажите только в том случае, если провайдер OpenID Connect не использует стандартный подход (например, /.well-known/openid-configuration)</value>
+  </data>
+  <data name="MetadataUrl.Text" xml:space="preserve">
+    <value>URL-адрес метаданных:</value>
+  </data>
+  <data name="PasswordSettings.Heading" xml:space="preserve">
+    <value>Настройки пароля</value>
+  </data>
+  <data name="PKCE.HelpText" xml:space="preserve">
+    <value>Укажите, поддерживает ли поставщик Proof Key for Code Exchange (PKCE)</value>
+  </data>
+  <data name="PKCE.Text" xml:space="preserve">
+    <value>Использовать PKCE?</value>
+  </data>
+  <data name="ProviderName.HelpText" xml:space="preserve">
+    <value>Имя внешнего провайдера входа в систему, которое будет отображаться на странице входа</value>
+  </data>
+  <data name="ProviderName.Text" xml:space="preserve">
+    <value>Имя провайдера:</value>
+  </data>
+  <data name="ProviderType.HelpText" xml:space="preserve">
+    <value>Выберите тип внешнего провайдера входа в систему</value>
+  </data>
+  <data name="ProviderType.Text" xml:space="preserve">
+    <value>Тип провайдера:</value>
+  </data>
+  <data name="RedirectUrl.HelpText" xml:space="preserve">
+    <value>URL-адрес перенаправления (или URL-адрес обратного вызова), который обычно необходимо зарегистрировать у провайдера</value>
+  </data>
+  <data name="RedirectUrl.Text" xml:space="preserve">
+    <value>URL перенаправления:</value>
+  </data>
+  <data name="RequireDigit.HelpText" xml:space="preserve">
+    <value>Укажите, должны ли пароли содержать цифру</value>
+  </data>
+  <data name="RequireDigit.Text" xml:space="preserve">
+    <value>Требовать цифру?</value>
+  </data>
+  <data name="RequiredLength.HelpText" xml:space="preserve">
+    <value>Минимальная длина пароля</value>
+  </data>
+  <data name="RequiredLength.Text" xml:space="preserve">
+    <value>Минимальная длина:</value>
+  </data>
+  <data name="RequireLower.HelpText" xml:space="preserve">
+    <value>Укажите, должны ли пароли содержать символы нижнего регистра</value>
+  </data>
+  <data name="RequireLower.Text" xml:space="preserve">
+    <value>Требовать строчные буквы?</value>
+  </data>
+  <data name="RequirePunctuation.HelpText" xml:space="preserve">
+    <value>Укажите, должны ли пароли содержать не буквенно-цифровые символы (например, знаки препинания)</value>
+  </data>
+  <data name="RequirePunctuation.Text" xml:space="preserve">
+    <value>Требовать пунктуации?</value>
+  </data>
+  <data name="RequireUpper.HelpText" xml:space="preserve">
+    <value>Укажите, должны ли пароли содержать символы верхнего регистра</value>
+  </data>
+  <data name="RequireUpper.Text" xml:space="preserve">
+    <value>Требовать верхний регистр?</value>
+  </data>
+  <data name="Roles.Text" xml:space="preserve">
+    <value>Роли</value>
+  </data>
+  <data name="Scopes.HelpText" xml:space="preserve">
+    <value>Список областей действия, которые необходимо запросить у поставщика (через запятую). Если ничего не указано, по умолчанию будут использоваться стандартные области действия.</value>
+  </data>
+  <data name="Scopes.Text" xml:space="preserve">
+    <value>Области:</value>
+  </data>
+  <data name="Secret.HelpText" xml:space="preserve">
+    <value>Если вы хотите предоставить доступ к API, укажите секрет, который будет использоваться для шифрования ваших токенов. Секрет должен состоять из 16 или более символов для обеспечения оптимальной безопасности. Обратите внимание, что если вы измените этот секрет, все существующие токены станут недействительными, и их нужно будет сгенерировать заново.</value>
+  </data>
+  <data name="Secret.Text" xml:space="preserve">
+    <value>Секрет:</value>
+  </data>
+  <data name="Settings.Heading" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="Success.SaveSiteSettings" xml:space="preserve">
+    <value>Настройки успешно сохранены</value>
+  </data>
+  <data name="Success.UpdateConfig.Restart" xml:space="preserve">
+    <value>Конфигурация обновлена. Пожалуйста, выберите «Перезапустить приложение», чтобы эти изменения активировались.</value>
+  </data>
+  <data name="Token.HelpText" xml:space="preserve">
+    <value>Нажмите кнопку «Создать токен», чтобы сгенерировать долговечный токен доступа (действителен в течение 1 года). Обязательно сохраните этот токен в безопасном месте, так как вы не сможете получить к нему доступ в будущем.</value>
+  </data>
+  <data name="Token.Text" xml:space="preserve">
+    <value>Токен:</value>
+  </data>
+  <data name="TokenSettings.Heading" xml:space="preserve">
+    <value>Настройки токена</value>
+  </data>
+  <data name="TokenUrl.HelpText" xml:space="preserve">
+    <value>Конечная точка для получения токена аутентификации</value>
+  </data>
+  <data name="TokenUrl.Text" xml:space="preserve">
+    <value>URL токена:</value>
+  </data>
+  <data name="TwoFactor.HelpText" xml:space="preserve">
+    <value>Вы хотите разрешить пользователям использовать двухфакторную аутентификацию? Обратите внимание, что задание уведомления в запланированных заданиях должно быть включено, а параметры SMTP должны быть настроены в настройках сайта, чтобы этот параметр работал правильно.</value>
+  </data>
+  <data name="TwoFactor.Text" xml:space="preserve">
+    <value>Поддерживать двухфакторную?</value>
+  </data>
+  <data name="UniqueCharacters.HelpText" xml:space="preserve">
+    <value>Минимальное количество уникальных символов, которое должен содержать пароль</value>
+  </data>
+  <data name="UniqueCharacters.Text" xml:space="preserve">
+    <value>Уникальных символов:</value>
+  </data>
+  <data name="UserInfoUrl.HelpText" xml:space="preserve">
+    <value>Конечная точка для получения информации о пользователе. Это должен быть URL-адрес API или страницы, который содержит адрес электронной почты пользователя.</value>
+  </data>
+  <data name="UserInfoUrl.Text" xml:space="preserve">
+    <value>URL инфо о пользователе:</value>
+  </data>
+  <data name="Users.Heading" xml:space="preserve">
+    <value>Пользователи</value>
+  </data>
+  <data name="UserSettings.Heading" xml:space="preserve">
+    <value>Настройки пользователя</value>
+  </data>
+  <data name="CookieName.HelpText" xml:space="preserve">
+    <value>Файлы cookie обычно управляются для каждого домена. Однако вы также можете выбрать отдельные файлы cookie для каждого сайта (эта опция применима только к микросайтам).</value>
+  </data>
+  <data name="CookieName.Text" xml:space="preserve">
+    <value>Имя файла cookie:</value>
+  </data>
+  <data name="LastIPAddress" xml:space="preserve">
+    <value>Последний IP-адрес</value>
+  </data>
+  <data name="LastLoginOn" xml:space="preserve">
+    <value>Последний вход</value>
+  </data>
+  <data name="CreatedOn" xml:space="preserve">
+    <value>Создано</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>Обязательно</value>
+  </data>
+  <data name="Optional" xml:space="preserve">
+    <value>Необязательно</value>
+  </data>
+  <data name="IdentifierClaimType.HelpText" xml:space="preserve">
+    <value>Имя уникального идентификатора пользователя, предоставленного поставщиком</value>
+  </data>
+  <data name="IdentifierClaimType.Text" xml:space="preserve">
+    <value>Утверждение идентификатора:</value>
+  </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>Отключено</value>
+  </data>
+</root>
