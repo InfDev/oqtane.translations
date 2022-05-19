@@ -118,15 +118,15 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Close" xml:space="preserve">
-    <value>Закрыть</value>
+    <value>Закрити</value>
   </data>
   <data name="InsertImage" xml:space="preserve">
-    <value>Вставить изображение</value>
+    <value>Вставити зображення</value>
   </data>
   <data name="Message.Require.Image" xml:space="preserve">
-    <value>Вы должны выбрать изображение для вставки</value>
+    <value>Ви повинні вибрати зображення для вставки</value>
   </data>
   <data name="SynchronizeContent" xml:space="preserve">
-    <value>Синхронизировать контент</value>
+    <value>Синхронізувати вміст</value>
   </data>
 </root>

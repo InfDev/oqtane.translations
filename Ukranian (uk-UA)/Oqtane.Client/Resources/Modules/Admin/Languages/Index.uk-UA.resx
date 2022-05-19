@@ -118,30 +118,30 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AddLanguage.Text" xml:space="preserve">
-    <value>Добавить язык</value>
+    <value>Додати мову</value>
   </data>
   <data name="Code" xml:space="preserve">
     <value>Код</value>
   </data>
   <data name="Confirm.Language.Delete" xml:space="preserve">
-    <value>Вы уверены, что хотите удалить язык {0}?</value>
+    <value>Ви впевнені, що хочете видалити мову {0}?</value>
   </data>
   <data name="Default" xml:space="preserve">
-    <value>По умолчанию</value>
+    <value>За замовчуванням</value>
   </data>
   <data name="DeleteLanguage.Header" xml:space="preserve">
-    <value>Удалить язык</value>
+    <value>Видалити мову</value>
   </data>
   <data name="Error.Language.Delete" xml:space="preserve">
-    <value>Ошибка при удалении языка</value>
+    <value>Помилка при видаленні мови</value>
   </data>
   <data name="Error.Language.Download" xml:space="preserve">
-    <value>Ошибка при загрузке перевода</value>
+    <value>Помилка при завантаженні перекладу</value>
   </data>
   <data name="Success.Language.Install" xml:space="preserve">
-    <value>Перевод успешно установлен. Чтобы применить эти изменения, необходимо &lt;a href={0}&gt; перезапустить &lt;/a&gt; приложение.</value>
+    <value>Переклад успішно встановлено. Щоб застосувати ці зміни, потрібно &lt;a href={0}&gt; перезапустити &lt;/a&gt; програму.</value>
   </data>
   <data name="DeleteLanguage.Text" xml:space="preserve">
-    <value>Удалить</value>
+    <value>Видалити</value>
   </data>
 </root>

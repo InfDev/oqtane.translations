@@ -360,14 +360,8 @@
   <data name="CookieName.Text" xml:space="preserve">
     <value>Имя файла cookie:</value>
   </data>
-  <data name="LastIPAddress" xml:space="preserve">
-    <value>Последний IP-адрес</value>
-  </data>
   <data name="LastLoginOn" xml:space="preserve">
-    <value>Последний вход</value>
-  </data>
-  <data name="CreatedOn" xml:space="preserve">
-    <value>Создано</value>
+    <value>Останній вхід</value>
   </data>
   <data name="Required" xml:space="preserve">
     <value>Обязательно</value>
@@ -383,5 +377,11 @@
   </data>
   <data name="Disabled" xml:space="preserve">
     <value>Отключено</value>
+  </data>
+  <data name="Parameters.HelpText" xml:space="preserve">
+    <value>За необхідності вкажіть будь-які додаткові параметри у вигляді пар ім'я/значення для надсилання постачальнику (через кому, якщо їх кілька).</value>
+  </data>
+  <data name="Parameters.Text" xml:space="preserve">
+    <value>Параметри:</value>
   </data>
 </root>

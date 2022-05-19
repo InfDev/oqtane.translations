@@ -124,7 +124,7 @@
     <value>Ошибка при загрузке файлов</value>
   </data>
   <data name="Error.File.Upload" xml:space="preserve">
-    <value>Ошибка загрузки файла</value>
+    <value>Помилка завантаження файлу</value>
   </data>
   <data name="File.Select" xml:space="preserve">
     <value>Выбор файла</value>

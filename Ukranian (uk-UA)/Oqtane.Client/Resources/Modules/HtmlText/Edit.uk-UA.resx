@@ -118,51 +118,51 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Error.Content.Save" xml:space="preserve">
-    <value>Ошибка при сохранении содержимого</value>
+    <value>Помилка збереження вмісту</value>
   </data>
   <data name="Confirm.Delete" xml:space="preserve">
-    <value>Вы уверены, что хотите удалить версию {0}?</value>
+    <value>Ви впевнені, що хочете видалити версію {0}?</value>
   </data>
   <data name="Confirm.Restore" xml:space="preserve">
-    <value>Вы уверены, что хотите восстановить версию {0}?</value>
+    <value>Ви впевнені, що хочете відновити версію {0}?</value>
   </data>
   <data name="CreatedBy" xml:space="preserve">
-    <value>Кем создано</value>
+    <value>Ким створено</value>
   </data>
   <data name="CreatedOn" xml:space="preserve">
-    <value>Создано</value>
+    <value>Створено</value>
   </data>
   <data name="Delete.Header" xml:space="preserve">
-    <value>Удаление версии</value>
+    <value>Видалення версії</value>
   </data>
   <data name="Delete.Text" xml:space="preserve">
-    <value>Удалить</value>
+    <value>Видалити</value>
   </data>
   <data name="Error.Content.Delete" xml:space="preserve">
-    <value>Ошибка удаления версии</value>
+    <value>Помилка видалення версії</value>
   </data>
   <data name="Error.Content.Load" xml:space="preserve">
-    <value>Произошла ошибка при загрузке содержимого</value>
+    <value>Сталася помилка під час завантаження вмісту</value>
   </data>
   <data name="Error.Content.Restore" xml:space="preserve">
-    <value>Ошибка восстановления версии</value>
+    <value>Помилка відновлення версії</value>
   </data>
   <data name="Error.Content.View" xml:space="preserve">
-    <value>Ошибка просмотра версии</value>
+    <value>Помилка перегляду версії</value>
   </data>
   <data name="Message.Content.Deleted" xml:space="preserve">
-    <value>Версия удалена</value>
+    <value>Версія видалена</value>
   </data>
   <data name="Message.Content.Restored" xml:space="preserve">
-    <value>Версия восстановлена</value>
+    <value>Версія відновлена</value>
   </data>
   <data name="Restore.Header" xml:space="preserve">
-    <value>Восстановление версии</value>
+    <value>Відновлення версії</value>
   </data>
   <data name="Restore.Text" xml:space="preserve">
-    <value>Восстановить</value>
+    <value>Відновити</value>
   </data>
   <data name="View.Text" xml:space="preserve">
-    <value>Просмотр</value>
+    <value>Перегляд</value>
   </data>
 </root>

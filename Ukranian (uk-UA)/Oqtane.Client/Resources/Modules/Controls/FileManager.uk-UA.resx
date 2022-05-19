@@ -118,27 +118,27 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Error.File.Delete" xml:space="preserve">
-    <value>Ошибка при удалении файла</value>
+    <value>Помилка при видаленні файлу</value>
   </data>
   <data name="Error.File.Load" xml:space="preserve">
-    <value>Ошибка при загрузке файлов</value>
+    <value>Помилка під час завантаження файлів</value>
   </data>
   <data name="Error.File.Upload" xml:space="preserve">
     <value>Ошибка загрузки файла</value>
   </data>
   <data name="File.Select" xml:space="preserve">
-    <value>Выбор файла</value>
+    <value>Вибір файлу</value>
   </data>
   <data name="Folder.Select" xml:space="preserve">
-    <value>Выбор папки</value>
+    <value>Вибір папки</value>
   </data>
   <data name="Message.File.NotSelected" xml:space="preserve">
-    <value>Вы не выбрали файл для загрузки</value>
+    <value>Ви не вибрали файл для завантаження</value>
   </data>
   <data name="Success.File.Delete" xml:space="preserve">
-    <value>Файл удален</value>
+    <value>Файл видалений</value>
   </data>
   <data name="Success.File.Upload" xml:space="preserve">
-    <value>Загрузка файла завершена</value>
+    <value>Завантаження файлу завершено</value>
   </data>
 </root>

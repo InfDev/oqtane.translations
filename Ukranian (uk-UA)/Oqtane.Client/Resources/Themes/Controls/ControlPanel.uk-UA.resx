@@ -133,7 +133,7 @@
     <value>Вы должны выбрать модуль</value>
   </data>
   <data name="Module.AddExisting" xml:space="preserve">
-    <value>Добавить существующий модул</value>
+    <value>Добавить существующий модуль</value>
   </data>
   <data name="Module.Manage" xml:space="preserve">
     <value>Управление модулем:</value>

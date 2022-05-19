@@ -186,4 +186,16 @@
   <data name="Password.Placeholder" xml:space="preserve">
     <value>Пароль</value>
   </data>
+  <data name="LastIPAddress.HelpText" xml:space="preserve">
+    <value>IP-адреса користувача, записана під час його останнього входу до системи</value>
+  </data>
+  <data name="LastIPAddress.Text" xml:space="preserve">
+    <value>Остання IP-адреса: </value>
+  </data>
+  <data name="LastLogin.HelpText" xml:space="preserve">
+    <value>Дата та час останнього входу користувача до системи</value>
+  </data>
+  <data name="LastLogin.Text" xml:space="preserve">
+    <value>Останній вхід:</value>
+  </data>
 </root>
