@@ -1,5 +1,10 @@
 ## Overview
 
+Localization for Oqtane framework 3.1.2
+	
+- Russian (ru-RU) - full localization
+- Ukranian (uk-UA) - very small part, basically as for ru-RU 
+
 Oqtane.Translations is OSS for provding a supported transaltions for [Oqtane Framework](https://github.com/oqtane/oqtane.framework).
 
 ## How to create a new translation for Oqtane Framework
