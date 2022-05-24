@@ -50,7 +50,7 @@
                 <a class="page-link" @onclick=@(async () => UpdateList(_pages))><span class="oi oi-media-step-forward" title="end" aria-hidden="true"></span></a>
             </li>
             <li class="page-item disabled">
-                <a class="page-link" style="white-space: nowrap;">@GetLocalizer()["PageOfPages", _page, _pages]</a>
+                <a class="page-link" style="white-space: nowrap;">@Localizer["PageOfPages", _page, _pages]</a>
             </li>
         </ul>
     }
@@ -158,7 +158,7 @@
                 <a class="page-link" @onclick=@(async () => UpdateList(_pages))><span class="oi oi-media-step-forward" title="end" aria-hidden="true"></span></a>
             </li>
             <li class="page-item disabled">
-               <a class="page-link" style="white-space: nowrap;">@GetLocalizer()["PageOfPages", _page, _pages]</a>
+               <a class="page-link" style="white-space: nowrap;">@Localizer["PageOfPages", _page, _pages]</a>
             </li>
         </ul>
     }
@@ -358,7 +358,19 @@
 
         UpdateList(_page);
     }
-    
+
+    #region Localizer for generic class Pager<TableItem> as for IStringLocalizer<Pager>
+    private IStringLocalizer _localizer;
+
+    protected IStringLocalizer Localizer {
+        get 
+        { 
+            if (_localizer == null)
+                _localizer = GetLocalizer();
+            return _localizer;
+        }
+    }
+
     public IStringLocalizer GetLocalizer()
     {
         var type = typeof(Pager<>);
@@ -368,4 +380,5 @@
         //value = localizer["PageOfPages", 2, 9];
         return localizer;
     }
+    #endregion
 }
