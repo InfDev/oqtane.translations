@@ -324,4 +324,7 @@
   <data name="ShowPassword" xml:space="preserve">
     <value>Показать</value>
   </data>
+  <data name="PageOfPages" xml:space="preserve">
+    <value>Стр. {0} из {1}</value>
+  </data>
 </root>
