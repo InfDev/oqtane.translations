@@ -118,6 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="PageOfPages" xml:space="preserve">
-    <value>Стор. {0}  з {1}</value>
+    <value>Стор. {0} з {1}</value>
   </data>
 </root>

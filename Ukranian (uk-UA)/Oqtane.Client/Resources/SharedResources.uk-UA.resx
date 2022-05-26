@@ -326,4 +326,8 @@
   </data>
   <data name="PageOfPages" xml:space="preserve">
     <value>Стор. {0} з {1}</value>
-  </data></root>
+  </data>
+  <data name="Search.By" xml:space="preserve">
+    <value>від</value>
+  </data>
+</root>

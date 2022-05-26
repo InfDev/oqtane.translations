@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>Oqtane.Client.uk-UA</id>
-    <version>1.0.3</version>
+    <version>1.0.4</version>
     <authors>Alexander Shlyakhto</authors>
     <owners>InfDev</owners>
     <title>Oqtane Framework uk-UA Translation</title>

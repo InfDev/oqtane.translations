@@ -181,7 +181,7 @@
     <value>Идентичность</value>
   </data>
   <data name="Profile.Heading" xml:space="preserve">
-    <value>Профиль</value>
+    <value>Профіль</value>
   </data>
   <data name="Password.Placeholder" xml:space="preserve">
     <value>Пароль</value>

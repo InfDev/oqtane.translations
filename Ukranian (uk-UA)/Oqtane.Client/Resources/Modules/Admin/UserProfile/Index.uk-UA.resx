@@ -219,4 +219,10 @@
   <data name="DeleteAllNotifications.Text" xml:space="preserve">
     <value>Удалить ВСЕ уведомления</value>
   </data>
+  <data name="Notifications.Heading" xml:space="preserve">
+    <value>Сповіщення</value>
+  </data>
+  <data name="Profile.Heading" xml:space="preserve">
+    <value>Профіль</value>
+  </data>
 </root>
